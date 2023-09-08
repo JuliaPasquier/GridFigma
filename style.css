@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+}
+body {
+  background-color: #232323;
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+header {
+  color: white;
+  background-color: #3a3d46;
+}
+a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.section1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+header .container {
+  font-size: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header ul {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 3%;
+}
+.Infos {
+  position: relative;
+  background-color: #232323;
+  margin-top: 15%;
+}
+
+.Home {
+  color: white;
+  background-color: #007dfc;
+  border-radius: 6%;
+  padding: 6px 10px 6px 10px;
+}
+.About {
+  color: white;
+}
+.Article {
+  color: white;
+}
+.Contact {
+  color: white;
+}
+li {
+  display: inline;
+}
+h1 {
+  display: flex;
+  text-transform: uppercase;
+  width: 463px;
+  height: 65px;
+  top: 208px;
+  left: 120px;
+  color: white;
+  font-size: 65px;
+  font-weight: 800;
+  line-height: 65px;
+  margin-top: 10%;
+  margin-bottom: 3%;
+  letter-spacing: 2px;
+  border-spacing: 4px;
+}
+span {
+  color: #ffb800;
+  text-transform: uppercase;
+  font-family: Raleway;
+}
+h2 {
+  color: rgb(27, 138, 212);
+  margin-bottom: 3%;
+  font-size: 26px;
+  font-weight: 400;
+}
+hr {
+  width: 463px;
+  height: 2px;
+  color: black;
+}
+p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 130.5%;
+  letter-spacing: 0.32px;
+  padding: 23px 0;
+}
+
+button {
+  background-color: #ffb800;
+  border-radius: 45px;
+  padding: 10px 27px 10px 27px;
+  width: 150px;
+}
+a:hover {
+  color: blue;
+}
+
+h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 37px;
+  letter-spacing: 0.02em;
+  color: black;
+}
+.section2 {
+  background-color: white;
+  padding-top: 4%;
+  padding-bottom: 6%;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin-top: 3%;
+}
+.hrSection2 {
+  width: 7.5vw;
+  margin-left: 4%;
+  border-top: 1px solid;
+}
+
+.one {
+  grid-area: 1 / 1 / 3 / 2;
+  margin-right: 20px;
+}
+.two {
+  grid-area: 1 / 2 / 2 / 3;
+  margin-right: 20px;
+}
+.three {
+  grid-area: 1 / 3 / 2 / 4;
+  margin-right: 20px;
+}
+.four {
+  grid-area: 2 / 2 / 3 / 3;
+  margin-right: 20px;
+  margin-top: 7px;
+}
+.five {
+  grid-area: 2 / 3 / 3 / 4;
+  margin-right: 20px;
+  margin-top: 7px;
+}
